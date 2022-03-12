@@ -3,7 +3,7 @@ import express from 'express'
 const PORT = 5050
 const app = express()
 
-app.get('/', (req, res) => {
+app.get('/api/', (req, res) => {
 
     res.json({name: 'Max', age: 34})
 })
